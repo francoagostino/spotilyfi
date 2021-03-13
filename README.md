@@ -51,4 +51,4 @@ tracks = sp.tracks_info(artist='Pain of Salvation', lyrics=True)
 &nbsp;
 
 ## Special Thanks
-This script builds on [CodingEntrepreneurs](https://www.youtube.com/channel/UCWEHue8kksIaktO8KTTN_zg) tutorial on the Spotify API. Which can be found as **day 19** of their 30 days of Python series.
+This script builds on [CodingEntrepreneurs](https://www.youtube.com/channel/UCWEHue8kksIaktO8KTTN_zg) tutorial on the Spotify API which can be found as **day 19** of their 30 days of Python series.
