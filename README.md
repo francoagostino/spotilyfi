@@ -1,12 +1,10 @@
 # **spotilyfi: Spotify API Client & Lyrics Finder**
-___
 
 ## What is it?
 **spotilyfi** is a script that leverages *Spotify's API* to retrieve information about albums, artists, playlists, tracks, shows and episodes. 
 
 On top of this, it is capable to scrap *azlyrics.com* to obtain lyrics of a specified track (given that Spotify and AZlyrics utilize the same track name).
 
-___
 ## How it is used?
 To utilize **spotilyfi** you must create a Spotify developer user account [here](https://developer.spotify.com/) and create an APP to obtain your Client id and Client Secret credentials.
 
@@ -33,7 +31,7 @@ pos_rl = {
 }
 rl_tracks = sp.search(pos_rl, search_type='track')
 ```
-___
+
 ## WARNING
 *AZlyrics* does not allow automated scrapnig of their website and will **temporally ban** your IP after abusing this feature.
 
@@ -43,6 +41,6 @@ The tracks_info function allows for autormated scraping of lyrics for multiple t
 ```
 tracks = sp.tracks_info(artist='Pain of Salvation', lyrics=True)
 ```
-___
+
 ## Special Thanks
 This script builds on [CodingEntrepreneurs](https://www.youtube.com/channel/UCWEHue8kksIaktO8KTTN_zg) tutorial on the Spotify API. Which can be found as **day 19** of their 30 days of Python series.
