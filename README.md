@@ -5,7 +5,6 @@
 
 On top of this, it is capable to scrap *azlyrics.com* to obtain lyrics of a specified track (given that Spotify and AZlyrics utilize the same track name).
 
-\
 
 ## How it is used?
 To utilize **spotilyfi** you must create a Spotify developer user account [here](https://developer.spotify.com/) and create an APP to obtain your Client id and Client Secret credentials.
